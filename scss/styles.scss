@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font-stack:"Montserrat", sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: $font-stack;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    line-height: 30px;
+    text-align: justify;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: rgba(128, 128, 128, 0.486);
+    text-decoration: underline;
+}
+
+::placeholder {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    content: "\f007";
+    text-align: right;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+    overflow: auto;
+}
+
+.btn {
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: max-content;
+    cursor: pointer;
+}
+
+.btn-border {
+    border: 1px solid grey;
+    color: grey;
+    background: none;  
+    &:hover {
+        color: #fff;
+        background: grey;
+    }
+}
+
+.btn-blue {
+    color: #fff;
+    background: blue;
+    &:hover {
+        background: rgba(0, 0, 255, 0.629);
+    }
+}
+
+.btn-green {
+    color: #fff;
+    background: green;
+    &:hover {
+        background: rgba(0, 128, 0, 0.611);
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+form {
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+        padding: 1rem;
+    }
+    button {
+        width: 50%;
+        color: #fff;
+        background: #000;
+        &:hover {
+            background: #00000083;
+        }
+    }
+}
+
+.flex {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+
+.subtitle {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 2rem 0;
+}
+
+//mainheader
+#mainheader {
+    background: #000;
+    .navbar {
+        width: 90%;
+        margin: 0 auto;
+        .logo {
+            font-size: 2rem;
+            margin: 1rem 0;
+        }
+        ul {
+            display: flex;
+            margin-top: 1.5rem;
+            li {
+                text-align: center;
+                margin-left: 1rem;
+            }
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+}
+
+//footer
+#footer {
+    text-align: center;
+    padding: 3rem 0;
+}
