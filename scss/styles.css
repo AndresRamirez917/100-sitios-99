@@ -69,7 +69,7 @@ p {
 }
 .btn-border:hover {
   color: #fff;
-  background: grey;
+  background: rgba(128, 128, 128, 0.603);
 }
 
 .btn-blue {
@@ -105,6 +105,7 @@ form button {
   width: 50%;
   color: #fff;
   background: #000;
+  border: none;
 }
 form button:hover {
   background: rgba(0, 0, 0, 0.5137254902);
@@ -212,6 +213,28 @@ form button:hover {
 }
 #courseDes .container .courseDes-flex .flexbox-2 p {
   width: 100%;
+}
+
+#contact {
+  width: 90%;
+  margin: 0 auto;
+}
+#contact .container .contact-flex {
+  gap: 50px;
+}
+#contact .container .contact-flex form {
+  width: 70%;
+  margin: 0 auto;
+}
+#contact .container .contact-flex .flexbox-1 p {
+  width: 80%;
+  margin-top: -0.3rem;
+}
+#contact .container .contact-flex .flexbox-1 .icon {
+  margin-bottom: 4rem;
+}
+#contact .container .contact-flex .flexbox-1 .icon i {
+  margin-top: -5rem;
 }
 
 #footer {
