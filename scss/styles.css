@@ -170,6 +170,50 @@ form button:hover {
   margin: 0 auto;
 }
 
+#ourcourses {
+  width: 90%;
+  margin: 0 auto;
+}
+#ourcourses .container .ourcourses-flex {
+  margin-top: 3rem;
+}
+#ourcourses .container .ourcourses-flex .flexbox-1 {
+  background: url("/img/feature-1.jpg");
+}
+#ourcourses .container .ourcourses-flex .flexbox-2 {
+  background: url("/img/feature-2.jpg");
+}
+#ourcourses .container .ourcourses-flex .flexbox-3 {
+  background: url("/img/feature-3.jpg");
+}
+#ourcourses .container .ourcourses-flex .flexbox-4 {
+  background: url("/img/feature-4.jpg");
+}
+#ourcourses .container .ourcourses-flex .flexbox-1, #ourcourses .container .ourcourses-flex .flexbox-2, #ourcourses .container .ourcourses-flex .flexbox-3, #ourcourses .container .ourcourses-flex .flexbox-4 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+#ourcourses .container .ourcourses-flex .flexbox-1 .button, #ourcourses .container .ourcourses-flex .flexbox-2 .button, #ourcourses .container .ourcourses-flex .flexbox-3 .button, #ourcourses .container .ourcourses-flex .flexbox-4 .button {
+  margin: 20px;
+}
+
+#courseDes {
+  width: 90%;
+  margin: 0 auto;
+}
+#courseDes .container {
+  margin-top: 5rem;
+}
+#courseDes .container .courseDes-flex {
+  gap: 80px;
+}
+#courseDes .container .courseDes-flex .flexbox-2 p {
+  width: 100%;
+}
+
 #footer {
   text-align: center;
   padding: 3rem 0;

@@ -171,6 +171,59 @@ form {
     }
 }
 
+//ourcourses
+#ourcourses {
+    width: 90%;
+    margin: 0 auto;
+    .container {
+        .ourcourses-flex {
+            margin-top: 3rem;
+            .flexbox-1 {
+                background: url("/img/feature-1.jpg");
+            }
+            .flexbox-2 {
+                background: url("/img/feature-2.jpg");
+            }
+            .flexbox-3 {
+                background: url("/img/feature-3.jpg");
+            }
+            .flexbox-4 {
+                background: url("/img/feature-4.jpg");
+            }
+            .flexbox-1, .flexbox-2, .flexbox-3, .flexbox-4 {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                height: 70vh;
+                .button {
+                    margin: 20px;
+                }
+            }
+        }
+    }
+}
+
+//courseDes
+#courseDes {
+    width: 90%;
+    margin: 0 auto;
+    .container {
+        margin-top: 5rem;
+        .courseDes-flex {
+            gap: 80px;
+            .flexbox-1 {
+ 
+            }
+            .flexbox-2 {
+               p {
+                width: 100%;
+               }
+            }
+        }
+    }
+}
+
 //footer
 #footer {
     text-align: center;
