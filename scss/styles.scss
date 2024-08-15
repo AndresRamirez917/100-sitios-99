@@ -58,8 +58,8 @@ p {
 }
 
 .btn-border {
-    border: 1px solid grey;
-    color: grey;
+    border: 1px solid rgb(97, 97, 97);
+    color:  rgb(97, 97, 97);
     background: none;  
     &:hover {
         color: #fff;
@@ -141,6 +141,32 @@ form {
             display: flex;
             justify-content: space-between;
             width: 100%;
+        }
+    }
+}
+
+//showcase
+#showcase {
+    .showcase-content {
+        background: url("/img/showcase.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        text-align: center;
+        h2 {
+            padding: 5rem 0 2rem 0;
+            font-size: 2rem;
+            font-weight: 300;
+        }
+        h1 {
+            font-size: 6rem;
+            color: rgba(0, 0, 0, 0.616);
+            margin-bottom: 2rem;
+        }
+        a {
+            display: block;
+            margin: 0 auto;
         }
     }
 }
