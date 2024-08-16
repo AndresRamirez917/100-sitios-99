@@ -1,1 +1,9 @@
-/*# sourceMappingURL=mobile.css.map */
+#contact .container .subtitle {
+  text-align: center;
+}
+#contact .container .contact-flex {
+  display: block;
+}
+#contact .container .contact-flex form button {
+  width: 100%;
+}/*# sourceMappingURL=mobile.css.map */
