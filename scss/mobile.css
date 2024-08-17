@@ -1,3 +1,33 @@
+#mainheader .navbar .container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#mainheader .navbar .container .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#mainheader .navbar .container ul {
+  display: block;
+  text-align: center;
+}
+#mainheader .navbar .container ul li {
+  margin: 2rem 0;
+}
+
+#ourcourses .ourcourses-flex {
+  display: block;
+  text-align: center;
+}
+
+#courseDes .container .courseDes-flex {
+  display: block;
+}
+#courseDes .container .courseDes-flex .flexbox-1 p {
+  margin: 1rem 0;
+}
+
 #contact .container .subtitle {
   text-align: center;
 }
