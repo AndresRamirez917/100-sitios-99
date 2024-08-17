@@ -153,7 +153,8 @@ form {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 80vh;
+        // height:75vh;
+        height: 400px;
         text-align: center;
         h2 {
             padding: 5rem 0 2rem 0;
@@ -168,6 +169,7 @@ form {
         a {
             display: block;
             margin: 0 auto;
+            margin-bottom: 2rem;
         }
     }
 }

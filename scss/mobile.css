@@ -7,18 +7,29 @@
   display: block;
   margin: 0 auto;
   text-align: center;
+  margin-top: 1rem;
 }
 #mainheader .navbar .container ul {
   display: block;
   text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
 }
 #mainheader .navbar .container ul li {
-  margin: 2rem 0;
+  display: inline;
+  margin-left: 1rem 0;
+}
+
+#showcase .showcase-content {
+  padding-top: 0;
 }
 
 #ourcourses .ourcourses-flex {
   display: block;
   text-align: center;
+}
+#ourcourses .ourcourses-flex .flexbox-1 .button, #ourcourses .ourcourses-flex .flexbox-2 .button, #ourcourses .ourcourses-flex .flexbox-3 .button, #ourcourses .ourcourses-flex .flexbox-4 .button {
+  padding-top: 1rem;
 }
 
 #courseDes .container .courseDes-flex {
@@ -26,6 +37,20 @@
 }
 #courseDes .container .courseDes-flex .flexbox-1 p {
   margin: 1rem 0;
+}
+
+#courses .container .courses-header {
+  display: block;
+}
+#courses .container .courses-header .subtitle {
+  font-size: 2.6rem;
+}
+#courses .container .courses-content {
+  display: block;
+}
+#courses .container .courses-content .courses-list .paragraph {
+  text-align: justify;
+  margin-bottom: 1rem;
 }
 
 #contact .container .subtitle {

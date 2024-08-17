@@ -9,23 +9,39 @@
                 display: block;
                 margin: 0 auto;
                 text-align: center;
+                margin-top: 1rem;
             }
             ul {
                 display: block;
                 text-align: center;
+                font-size: .8rem;
+                margin-bottom: 1rem;
                 li {
-                    margin: 2rem 0;
+                    display: inline;
+                    margin-left: 1rem 0;
                 }
             }
         }
     }
 }
 
-//oncourses
+//showcase
+#showcase {
+    .showcase-content {
+        padding-top: 0;
+    }
+}
+
+//ourcourses
 #ourcourses {
     .ourcourses-flex {
         display: block;
         text-align: center;
+        .flexbox-1, .flexbox-2, .flexbox-3, .flexbox-4 {
+            .button {
+                padding-top: 1rem;
+            }
+        }
     }
 }
 
@@ -37,6 +53,27 @@
             .flexbox-1 {
                 p {
                     margin: 1rem 0;
+                }
+            }
+        }
+    }
+}
+
+//courses
+#courses {
+    .container {
+        .courses-header {
+            display: block;
+            .subtitle {
+                font-size: 2.6rem;
+            }
+        }
+        .courses-content {
+            display: block;
+            .courses-list {
+                .paragraph {
+                    text-align: justify;
+                    margin-bottom: 1rem;
                 }
             }
         }
